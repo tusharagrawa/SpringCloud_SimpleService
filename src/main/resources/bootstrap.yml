@@ -11,5 +11,13 @@ eureka:
     hostname: localhost
 spring:
   application:
-    name: Simple Service
+    name: SimpleService
     
+  profiles:
+    active:
+    - dev
+    
+  cloud:
+    config:
+      uri: 
+      - http://localhost:8888    

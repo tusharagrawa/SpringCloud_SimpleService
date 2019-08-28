@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@RibbonClient(configuration = SayHelloConfiguration.class)
+//@RibbonClient(configuration = SayHelloConfiguration.class)
 public class Day2SimpleServiceApplication {
 
 	@Bean
